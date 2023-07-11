@@ -44,6 +44,35 @@ body {
 .header {
   background-color: rgba(229, 84, 115, 0.1);
 }
+/* navbar start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 20px;
+}
+.logo {
+  color: #2d2d2d;
+  font-size: 50px;
+  font-weight: 800;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #111010;
+  font-weight: 700;
+}
+/* navbar end */
 
 /* banner start */
 .banner {
@@ -165,7 +194,6 @@ body {
 
 /* instragram start */
 .instragram {
-  
 }
 .instra-content {
   max-width: 594px;
