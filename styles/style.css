@@ -47,10 +47,10 @@ body {
 
 /* banner start */
 .banner {
-  padding: 0px 150px 0px 130px;
+  padding: 0px 150px 0px 170px;
   display: flex;
   align-items: center;
-  gap: 90px;
+  gap: 95px;
   /* justify-content: space-between; */
   max-width: 1920px;
   height: 850px;
@@ -82,8 +82,56 @@ body {
 /* banner end */
 /* header section end */
 
-
 /* main start */
+/* featured start */
+.featured-content {
+  max-width: 594px;
+  margin-bottom: 48px;
+}
+.featured-images {
+  display: flex;
+  gap: 24px;
+}
+.img-frame {
+  text-align: center;
+}
+.featured-img {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  margin-bottom: 32px;
+}
+#featured-img-back-color1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+#featured-img-back-color2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+#featured-img-back-color3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+#featured-img1 {
+  width: 310px;
+  height: 428px;
+  padding: 110px 78px 0px;
+}
+#featured-img2 {
+  width: 370px;
+  height: 370px;
+  padding: 117px 47px 51px;
+}
+#featured-img3 {
+  width: 314px;
+  height: 471px;
+  padding: 67px 75px 0px;
+}
+.img-link a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+}
+/* featured end */
+
 /* hot deals start */
 .hot-deal {
   max-width: 1922px;
@@ -117,6 +165,7 @@ body {
 
 /* instragram start */
 .instragram {
+  
 }
 .instra-content {
   max-width: 594px;
@@ -161,6 +210,7 @@ body {
   padding: 18.3px 31px;
   font-size: 20px;
   font-weight: 700;
+  margin-left: 16px;
 }
 /* get deals end */
 /* main end */
@@ -173,7 +223,7 @@ footer {
   text-align: center;
   font-weight: 400;
 }
-.footer{
+.footer {
   max-width: 625px;
   padding-top: 128px;
   padding-bottom: 128px;
