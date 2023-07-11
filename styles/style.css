@@ -1,0 +1,104 @@
+/* common shared styles */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.primary-color{
+  color: #e55473;
+}
+.marginBottom {
+  margin-bottom: 128px;
+}
+.title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* header section started */
+.header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+.banner {
+  padding: 50px 240px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 708px;
+  margin-right: 40px;
+}
+
+#banner-img {
+  width: 635px;
+  height: 800px;
+}
+.banner-greeting {
+  color: #272727;
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 32px;
+  width: 600px;
+}
+
+.banner-paragraph {
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+/* hot deals start */
+.hot-deal {
+  max-width: 1922px;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  padding: 100px 200px 100px 200px;
+  text-align: center;
+}
+.hot-deal-content {
+  max-width: 600px;
+  /* width: 70%; */
+}
+
+.hot-deal-title {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.hot-deal-description {
+  margin-bottom: 32px;
+}
+.hot-deal-img {
+  width: 318px;
+  height: 420px;
+  margin-left: 186px;
+}
+
+/* hot deals end */
+
+/* .get-deals{
+  background-image: url('../Flower_Asset/getDeal.png');
+} */

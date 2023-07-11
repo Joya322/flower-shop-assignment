@@ -4,26 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlowerShop</title>
-    <!-- Google fonts -->
+
+    <!-- Google fonts start -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Google fonts end -->
 
     <!-- css -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header class="header">
+    <!-- header start -->
+    <header class="header marginBottom">
       <div class="banner">
         <div class="banner-content">
           <h1 class="banner-greeting">
             Let's make beautiful flowers a part of your life.
           </h1>
 
-          <p class="banner-paragraph">
+          <p class="banner-paragraph description">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum is that it has a more-or-less normal
@@ -33,13 +36,51 @@
           <button class="btn-primary">Shop Now</button>
         </div>
 
-        
-          <img id="banner-img" src="./Flower Asset/bannerImg.png" alt="Flower" />
-        
+        <img id="banner-img" src="./Flower_Asset/bannerImg.png" alt="Flower" />
       </div>
     </header>
+    <!-- header end -->
 
-    <main></main>
+    <!-- main start -->
+    <main>
+      <!-- hot-deal start -->
+      <section class="hot-deal">
+        <div class="hot-deal-content">
+          <h3 class="hot-deal-title title">Hot Deal ! Sale Up To 25% <span class="primary-color">Off</span></h3>
+          <p class="hot-deal-description description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <button class="btn-primary">Sign Up</button>
+        </div>
+        
+          <img class="hot-deal-img" src="./Flower_Asset/hotDeal.png" alt="flower vase">
+       
+      </section>
+      <!-- hot-deal end -->
+
+      <!-- get-update section start -->
+      <!-- <section class="get-deals">
+        <div class="center get-deal">
+          <h2>Get My Updates</h2>
+          <p>
+            If you want to get my updates, you can subscribe my website by
+            giving your email address. So, give your email and click the
+            subscribe button and get all updates.
+          </p>
+          <div class="form center">
+            <form action="">
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <button>Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section> -->
+      <!-- get-update section end -->
+
+      <div class="get_the_latest_deal_form"></div>
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
     <footer></footer>
+    <!-- footer end -->
   </body>
 </html>
