@@ -47,10 +47,9 @@ body {
 /* navbar start */
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  max-width: 1200px;
-  margin: auto;
+  
   padding-top: 20px;
 }
 .logo {
@@ -160,6 +159,28 @@ nav a {
   font-weight: 700;
 }
 /* featured end */
+
+/* support start */
+.support {
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.supports{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 86px 175px;
+}
+.icon {
+  margin-bottom: 24px;
+}
+.icon>img{
+  width: 88px;
+  height: 88px;
+}
+/* support end */
 
 /* hot deals start */
 .hot-deal {
