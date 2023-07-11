@@ -15,7 +15,7 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
-.primary-color{
+.primary-color {
   color: #e55473;
 }
 .marginBottom {
@@ -26,12 +26,17 @@ body {
   text-align: center;
   font-size: 40px;
   font-weight: 800;
+  margin-bottom: 24px;
 }
 .description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+}
+.marginAuto {
+  max-width: 1440px;
+  margin: auto;
 }
 
 /* header section started */
@@ -80,13 +85,12 @@ body {
   text-align: center;
 }
 .hot-deal-content {
-  max-width: 600px;
+  max-width: 594px;
+  text-align: center;
   /* width: 70%; */
 }
 
 .hot-deal-title {
-  margin-bottom: 24px;
-  text-align: center;
 }
 .hot-deal-description {
   margin-bottom: 32px;
@@ -98,6 +102,24 @@ body {
 }
 
 /* hot deals end */
+
+/* instragram start */
+.instragram {
+  
+}
+.instra-content {
+  max-width: 594px;
+  margin-bottom: 48px;
+}
+.instra-images{
+  display: flex;
+  gap: 24px;
+}
+.instra-img {
+  width: 342px;
+  height: 396px;
+}
+/* instragram end */
 
 /* .get-deals{
   background-image: url('../Flower_Asset/getDeal.png');
